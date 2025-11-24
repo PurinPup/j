@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Proxy</title>
+    <!-- Links to your CSS and JavaScript files -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Web Proxy</h1>
+        <input type="text" id="urlInput" placeholder="Enter URL (e.g., https://example.com)">
+        <button onclick="proxyRequest()">Go</button>
+        <p id="message"></p>
+        <!-- The iframe is where the proxied content loads -->
+        <iframe id="contentFrame" src="about:blank"></iframe>
+    </div>
+    <!-- Links to your JavaScript file that handles the logic -->
+    <script src="script.js"></script>
+</body>
+</html>
