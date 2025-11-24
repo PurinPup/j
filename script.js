@@ -1,6 +1,6 @@
 // In script.js
 // Replace "YOUR_NETLIFY_SITE_NAME" with the actual random name Netlify gave you
-const BACKEND_URL = 'https://YOUR_NETLIFY_SITE_NAME.netlify.app/.netlify/functions/proxy'; 
+const BACKEND_URL = 'https://proxybackend.netlify.app/.netlify/functions/proxy';
 
 async function proxyRequest() {
     // ... (rest of the code) ...
